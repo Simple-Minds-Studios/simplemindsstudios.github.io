@@ -1,0 +1,53 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare the independent organization preview
+        run: |
+          mkdir -p _site
+          rsync -a --exclude=.git --exclude=.github --exclude=CNAME --exclude=_site ./ _site/
+          python3 - <<'PY'
+          import os, pathlib, re
+          base = '/' + os.environ['GITHUB_REPOSITORY'].split('/')[1] + '/'
+          pattern = re.compile(r"""(["'])/(images|fonts|ethos|people|hart-in-motion|lincd|studio|repository-standard|ethos-wire\.js)(?=[/"'])""")
+          changed = 0
+          for path in pathlib.Path('_site').rglob('*'):
+              if path.is_file() and path.suffix in ('.html', '.js', '.css'):
+                  text = path.read_text()
+                  updated = pattern.sub(lambda m: m.group(1) + base + m.group(2), text)
+                  updated = updated.replace('href="/"', 'href="' + base + '"')
+                  updated = updated.replace('url(/', 'url(' + base)
+                  if updated != text:
+                      path.write_text(updated)
+                      changed += 1
+          print('Adjusted project-site paths in', changed, 'files')
+          PY
+          test -s _site/index.html
+          test ! -e _site/CNAME
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
