@@ -4,6 +4,8 @@
 
 This repository powers the public website and project hub for **Simple Minds Studios**, the independent creative and systems practice of Bart Salazar in Hart, Michigan.
 
+Live website: **https://simplemindsstudios.com/**. Publishing and recovery details: [Hosting](studio/HOSTING.md).
+
 ## What the studio explores
 
 Simple Minds Studios brings together:

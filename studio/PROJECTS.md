@@ -12,8 +12,8 @@ The public website is the curated exhibition. GitHub is the working archive cont
 
 - **Fractalnomia** — Inquiry into repeating structures, economics, and systems behavior. Private research repository.
 - **LensBridge (RomanMAST)** — Historical microlensing measurements, event matching, and source provenance for future Roman research. [Explore](https://simple-minds-studios.github.io/RomanMAST/). [Repository](https://github.com/Simple-Minds-Studios/RomanMAST)
-- **HCBL Burstlog** — Recording and examining bursts and irregular signals. [Repository](https://github.com/Bartron773/hcbl-burstlog)
-- **Novelty Anomaly Burst Detector** — Novelty and anomaly detection experiment. [Repository](https://github.com/Bartron773/novelty-anomaly-burst-detector)
+- **HCBL Burstlog** — Recording and examining bursts and irregular signals. Private research repository.
+- **Novelty Anomaly Burst Detector** — Novelty and anomaly detection experiment. Private research repository.
 
 ## Fashion, Music, and Editorial Work
 
