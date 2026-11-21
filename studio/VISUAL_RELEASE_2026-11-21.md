@@ -20,3 +20,10 @@ Published the approved visual homepage concept at the canonical website, https:/
 ## Recovery
 
 The previous complete homepage is preserved in Git history at `1ccb9ad7a9a674eb8514729bc4b6ddc66c572335`. Revert the visual release commit to restore that edition without changing DNS or custom-domain ownership.
+
+## Published verification
+
+- Release commit: `5c2de4a8b66084498ce90d1536682e96fa41a31a`.
+- [Successful GitHub Pages deployment](https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io/actions/runs/44924251070).
+- Verified the new design directly at https://simplemindsstudios.com/ and confirmed Bart's visible email and mailto links in the published contact section and footer.
+- [Live contact-section screenshot](../.github/reports/visual-homepage-contact-live-2026-11-21.jpg).
