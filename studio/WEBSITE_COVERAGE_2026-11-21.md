@@ -52,3 +52,10 @@ Compared the organization's current public repository inventory with the canonic
 - Phone layouts at 390px and 320px: persistent All projects link, no horizontal document overflow.
 - Directory search for Brad returned his exhibit; category and project anchors are stable.
 - No private repository content, email configuration, or DNS records were changed.
+
+## Published result
+
+- Published homepage change: `c96719d26718a780601ec19a952ad46d5654780d`.
+- [Successful GitHub Pages deployment](https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io/actions/runs/44906183194).
+- The live browser confirmed all 22 unique public repositories among 23 catalog cards, both family-history links, and no horizontal overflow.
+- [Published desktop screenshot](../.github/reports/homepage-family-history-2026-11-21.jpg).
