@@ -1,0 +1,88 @@
+{
+  "source_repository": "Bartron773/simplemindsstudios.github.io",
+  "source_default_sha": "739bcd98dd562a8d105b1878051fdb5c8ed10d82",
+  "organization_sha_before_audit": "5a3124da7f6673987ef4fa11607fba37b4c43308",
+  "common_ancestor": "51fedb5d97ed8d4c259170b1f9ba74610ed83009",
+  "source_description": "A place for questions: A living cultural space for research, design, film, fashion, music, civic imagination, and the ideas that become more interesting when we stay with them. The website is the exhibition. GitHub is the working archive: source files, documentation, versions, licensing, and the record of how each idea developed.",
+  "source_homepage": "https://simplemindsstudios.com/",
+  "preserved_branches": [
+    "archive/personal/agent/fix-site-audit-issues",
+    "archive/personal/agent/restore-social-meta",
+    "archive/personal/agent/restore-social-meta-check",
+    "archive/personal/agent/split-react-bundle",
+    "archive/personal/main"
+  ],
+  "source_tags": [],
+  "issues_and_pull_requests": [
+    {
+      "number": 5,
+      "title": "Add Brad Devowe\u2019s Seasons of Michigan artifact and original photo gallery",
+      "body": "Adds **Seasons of Michigan** to the SMS Working Collection and creates its standalone exhibit at `artifacts/seasons-of-michigan/`, including a **How it began** gallery of the four original photographs.\n\nThe spring, summer, autumn, and winter originals appear below the finished artwork in seasonal order, and each opens its complete original JPG. All four JPGs and the final titled PNG are preserved byte for byte. The exact finished-artwork credit remains **SimpleMindsStudios - Brad Devowe**.\n\nThe exhibit identifies Brad\u2019s creative direction and Lincoln (ChatGPT / OpenAI)\u2019s assistance, and clearly describes the finished image as an AI-assisted photographic composite. Source photographs are credited as supplied by Brad; individual photographers are not inferred from filenames. `assets/originals/sources.json` preserves the original filenames, dimensions, and checksums. Metadata, provenance notes, the project index, and public reading guides accompany the exhibit.\n\nUses the available `Simple-Minds-Studios/sms-standards` working draft at `e47804d7e92c305aaf3587d44547c14fe62fbb48`, existing SMS exhibit styling, and current ethos/provenance policies.\n\nValidation: rendered exhibit and four-image gallery inspected; all original-image links and local assets resolved; image dimensions and alt text checked; metadata JSON parsed; all ten uploaded artifact files match the checked local files by Git blob SHA, including all five image files. The finished image remains 1448 \u00d7 1086 pixels; each original is 1536 \u00d7 1152 pixels. Homepage JavaScript syntax passed, exactly one collection card is present, and whitespace checks passed.",
+      "state": "open",
+      "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/5",
+      "created_at": "2026-11-05T02:13:38Z",
+      "updated_at": "2026-11-05T02:26:18Z",
+      "closed_at": null,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Bartron773/simplemindsstudios.github.io/pulls/5",
+        "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/5",
+        "diff_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/5.diff",
+        "patch_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/5.patch",
+        "merged_at": null
+      }
+    },
+    {
+      "number": 4,
+      "title": "Fix site metadata and mobile navigation",
+      "body": "## What changed\n\n- keeps the Open Graph image on the canonical `simplemindsstudios.com` URL after the app initializes\n- adds Twitter image alt text\n- restores the primary navigation at phone and tablet widths without horizontal page overflow\n- adds visible keyboard focus styles and anchor offsets for the sticky header\n- removes references to missing local font files\n- updates the expired archive date and makes the analytics disclosure consistent with the active Google Analytics setup\n\n## Why\n\nThe bundled page runtime was overwriting the correct social-preview image with a broken GitHub organization URL. The mobile breakpoint hid the only primary navigation, and the document referenced font files that are not present in the repository.\n\n## Validation\n\nChecked the page locally at desktop and 390 \u00d7 844 phone dimensions. The navigation remains visible, the document does not overflow horizontally, section anchors remain available, and the final runtime metadata points to the canonical social-preview image.",
+      "state": "closed",
+      "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/4",
+      "created_at": "2026-08-19T02:58:09Z",
+      "updated_at": "2026-08-20T08:47:30Z",
+      "closed_at": "2026-08-20T08:47:30Z",
+      "pull_request": {
+        "url": "https://api.github.com/repos/Bartron773/simplemindsstudios.github.io/pulls/4",
+        "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/4",
+        "diff_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/4.diff",
+        "patch_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/4.patch",
+        "merged_at": null
+      }
+    },
+    {
+      "number": 3,
+      "title": "Restore social preview metadata",
+      "body": "Restore social preview metadata without touching Analytics, favicon, fonts, or the external app bundle.\n\nChanges:\n- Point Open Graph and Twitter preview images at the canonical custom domain.\n- Add `og:image:secure_url`.\n- Add a cache-busting version query to encourage fresh social crawls.\n\nUnchanged:\n- Google Analytics measurement ID `G-8QL1DX6CTL`\n- favicon links\n- Optimistic font block\n- page title/description\n- `/assets/app.js` loading",
+      "state": "closed",
+      "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/3",
+      "created_at": "2026-08-15T18:03:50Z",
+      "updated_at": "2026-08-15T18:03:59Z",
+      "closed_at": "2026-08-15T18:03:59Z",
+      "pull_request": {
+        "url": "https://api.github.com/repos/Bartron773/simplemindsstudios.github.io/pulls/3",
+        "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/3",
+        "diff_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/3.diff",
+        "patch_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/3.patch",
+        "merged_at": "2026-08-15T18:03:59Z"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Split compiled React bundle from index.html",
+      "body": "Moves the existing compiled module out of the 1.04 MB inline `index.html` and into `assets/app.js` without rewriting the compiled JavaScript.\n\nChanges:\n- `index.html` is now a ~3.3 KB HTML shell with the existing head, `#root`, and an external module reference.\n- `assets/app.js` contains the exact bytes that previously followed the inline `<script type=\"module\">` marker.\n- Adds proper closing `</body>` and `</html>` tags because the exporter had emitted the inline module through EOF.\n\nValidation:\n- GitHub Actions extracted 1,039,094 bytes into `assets/app.js`.\n- Verified the inline module marker is gone from `index.html`.\n- Verified `#root` and `/assets/app.js` reference are present.\n- Verified the clean shell closes with `</html>`.",
+      "state": "closed",
+      "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/2",
+      "created_at": "2026-08-15T16:02:13Z",
+      "updated_at": "2026-08-15T16:02:25Z",
+      "closed_at": "2026-08-15T16:02:24Z",
+      "pull_request": {
+        "url": "https://api.github.com/repos/Bartron773/simplemindsstudios.github.io/pulls/2",
+        "html_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/2",
+        "diff_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/2.diff",
+        "patch_url": "https://github.com/Bartron773/simplemindsstudios.github.io/pull/2.patch",
+        "merged_at": "2026-08-15T16:02:24Z"
+      }
+    }
+  ],
+  "releases": [],
+  "note": "Git history and branch tips are preserved under archive/personal/*. GitHub issue/PR numbers, review threads, check runs, permissions and secrets are not Git objects. Source records remain at their original URLs. No credential values have been copied."
+}

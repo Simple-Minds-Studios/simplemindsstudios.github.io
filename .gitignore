@@ -1,2 +1,18 @@
 _site/
 __pycache__/
+
+# Local files, credentials and generated caches
+.DS_Store
+Thumbs.db
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+id_rsa
+id_ed25519
+.aws/
