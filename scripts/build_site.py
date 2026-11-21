@@ -4,12 +4,14 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--base-path", default="")
 parser.add_argument("--output", default="_site")
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
+subprocess.run([sys.executable, str(root / "scripts/sync_public_collection.py")], cwd=root, check=True)
 out = (root / args.output).resolve()
 if out == root or root not in out.parents:
     raise SystemExit("Output must be a subdirectory of this repository")

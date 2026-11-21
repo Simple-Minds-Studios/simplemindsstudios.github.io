@@ -22,6 +22,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verify every public organization repository is represented
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_public_catalog.py --live
       - uses: actions/configure-pages@v5
         id: pages
       - name: Build the website for its configured address

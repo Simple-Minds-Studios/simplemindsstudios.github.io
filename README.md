@@ -49,3 +49,10 @@ See [`repository-standard/LICENSE`](repository-standard/LICENSE), [`repository-s
 
 **Created by Bart Salazar / Simple Minds Studios**  
 Hart, Michigan — 2026
+
+
+## Public collection coverage
+
+The homepage and searchable directory use `projects/catalog.json` as the reviewed public inventory. Both family-history exhibits appear near the opening of the homepage. The **All projects** header link remains visible on phones.
+
+Before deployment, `scripts/check_public_catalog.py --live` compares the catalog with GitHub’s public organization repositories. Missing or stale entries stop the deployment with an explicit report; private source is never imported automatically. The build synchronizes the homepage collection from the catalog.
