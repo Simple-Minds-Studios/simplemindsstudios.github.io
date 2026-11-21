@@ -5,21 +5,21 @@ The public website is the curated exhibition. GitHub is the working archive cont
 ## Intelligent Systems
 
 - **Linc(d)** — Privacy-first context operating system. Private development repository.
-- **SpineFlow** — Spatial-design intelligence and intelligent interiors. [Repository](https://github.com/Bartron773/spineflow-tiny-showcase)
-- **The Hart Protocol** — Civic framework for data infrastructure, local benefit, and community participation. [Repository](https://github.com/Bartron773/the-hart-protocol)
+- **SpineFlow** — Spatial-design intelligence and intelligent interiors. [Repository](https://github.com/Simple-Minds-Studios/spineflow-tiny-showcase)
+- **The Hart Protocol** — Civic framework for data infrastructure, local benefit, and community participation. [Repository](https://github.com/Simple-Minds-Studios/the-hart-protocol)
 
 ## Research and Detection
 
-- **Fractalnomia** — Inquiry into repeating structures, economics, and systems behavior. [Repository](https://github.com/Bartron773/Fractalnomia)
-- **RomanMAST** — Astronomical data and observation research. [Repository](https://github.com/Bartron773/RomanMAST)
+- **Fractalnomia** — Inquiry into repeating structures, economics, and systems behavior. Private research repository.
+- **LensBridge (RomanMAST)** — Historical microlensing measurements, event matching, and source provenance for future Roman research. [Explore](https://simple-minds-studios.github.io/RomanMAST/). [Repository](https://github.com/Simple-Minds-Studios/RomanMAST)
 - **HCBL Burstlog** — Recording and examining bursts and irregular signals. [Repository](https://github.com/Bartron773/hcbl-burstlog)
 - **Novelty Anomaly Burst Detector** — Novelty and anomaly detection experiment. [Repository](https://github.com/Bartron773/novelty-anomaly-burst-detector)
 
 ## Fashion, Music, and Editorial Work
 
-- **Low Visibility Lookbooks** — Fashion and editorial collection. [Repository](https://github.com/Bartron773/Low-Visibility-Lookbooks)
-- **Low Visibility Brand Bible** — Visual identity, atmosphere, and brand system. [Repository](https://github.com/Bartron773/low-visibility-brand-bible)
-- **Glam Confession** — Music, performance, identity, and AI-assisted narrative. [Repository](https://github.com/Bartron773/glam-confession)
+- **Low Visibility Lookbooks** — Fashion and editorial collection. [Repository](https://github.com/Simple-Minds-Studios/Low-Visibility-Lookbooks)
+- **Low Visibility Brand Bible** — Visual identity, atmosphere, and brand system. [Repository](https://github.com/Simple-Minds-Studios/low-visibility-brand-bible)
+- **Glam Confession** — Music, performance, identity, and AI-assisted narrative. [Repository](https://github.com/Simple-Minds-Studios/glam-confession)
 
 ## In Development
 
