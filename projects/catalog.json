@@ -1,0 +1,235 @@
+{
+  "verified_on": "2026-11-20",
+  "projects": [
+    {
+      "repo": "the-anonymous-family",
+      "title": "The Anonymous Family",
+      "category": "Family History & Memory",
+      "status": "Live exhibit",
+      "description": "A privacy-first family-history exhibit exploring migration, memory, evidence, and archival uncertainty.",
+      "steward": "Brad Devowe",
+      "url": "https://simple-minds-studios.github.io/the-anonymous-family/",
+      "repository": "https://github.com/Simple-Minds-Studios/the-anonymous-family"
+    },
+    {
+      "repo": "still-here",
+      "title": "STILL HERE — A Tree of Memory",
+      "category": "Family History & Memory",
+      "status": "Live exhibit",
+      "description": "A family-history exhibition with distinct evidence labels and a public/private publication boundary.",
+      "steward": "Bart Salazar",
+      "url": "https://simple-minds-studios.github.io/still-here/",
+      "repository": "https://github.com/Simple-Minds-Studios/still-here"
+    },
+    {
+      "repo": "RomanMAST",
+      "title": "LensBridge",
+      "category": "Research & Exploration",
+      "status": "Research tools",
+      "description": "Astronomy research connecting historical microlensing measurements, event identities, and source provenance ahead of Roman science.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/RomanMAST/",
+      "repository": "https://github.com/Simple-Minds-Studios/RomanMAST"
+    },
+    {
+      "repo": "project-voyager-iii",
+      "title": "Voyager III",
+      "category": "Research & Exploration",
+      "status": "Research concept",
+      "description": "An exploratory space-mission concept. View the current public presentation and development archive.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/project-voyager-iii/",
+      "repository": "https://github.com/Simple-Minds-Studios/project-voyager-iii"
+    },
+    {
+      "repo": "project-wayfinder",
+      "title": "Project Wayfinder",
+      "category": "Research & Exploration",
+      "status": "Research concept",
+      "description": "An investigation presented as The Hidden Social Network of Neolithic Britain.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/project-wayfinder/",
+      "repository": "https://github.com/Simple-Minds-Studios/project-wayfinder"
+    },
+    {
+      "repo": "project-aurelia",
+      "title": "Project Aurelia",
+      "category": "Research & Exploration",
+      "status": "Research concept",
+      "description": "A developing research project with a public presentation and source archive.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/project-aurelia/",
+      "repository": "https://github.com/Simple-Minds-Studios/project-aurelia"
+    },
+    {
+      "repo": "witness-multiple",
+      "title": "WITNESS / MULTIPLE",
+      "category": "Research & Exploration",
+      "status": "Research archive",
+      "description": "A polyphonic archive of human–AI collaboration, preserving distinct interpretations, provenance, and disagreement.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/witness-multiple/",
+      "repository": "https://github.com/Simple-Minds-Studios/witness-multiple"
+    },
+    {
+      "repo": "the-moving-frame",
+      "title": "The Moving Frame",
+      "category": "Research & Exploration",
+      "status": "In development",
+      "description": "A human–AI discoveries archive. Its public landing page is live; protocols and findings are in preparation.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/the-moving-frame/",
+      "repository": "https://github.com/Simple-Minds-Studios/the-moving-frame"
+    },
+    {
+      "repo": "lincd-public",
+      "title": "Linc(d)",
+      "category": "Systems & Services",
+      "status": "Prototype",
+      "description": "A personal-context prototype with reviewable proposals and session contracts. External connections and AI execution remain demonstrations.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/lincd-public/",
+      "repository": "https://github.com/Simple-Minds-Studios/lincd-public"
+    },
+    {
+      "repo": "spineflow-tiny-showcase",
+      "title": "SpineFlow Tiny",
+      "category": "Systems & Services",
+      "status": "Prototype",
+      "description": "An experimental architectural visualizer and spatial-intelligence interface.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/spineflow-tiny-showcase/",
+      "repository": "https://github.com/Simple-Minds-Studios/spineflow-tiny-showcase"
+    },
+    {
+      "repo": "mi-tech-bros",
+      "title": "MI Tech Bros",
+      "category": "Systems & Services",
+      "status": "Services",
+      "description": "Practical home and small-business technology help in Western Michigan.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/mi-tech-bros/",
+      "repository": "https://github.com/Simple-Minds-Studios/mi-tech-bros"
+    },
+    {
+      "repo": null,
+      "title": "Hart, in Motion",
+      "category": "Place & Civic Life",
+      "status": "Live exhibit",
+      "description": "Interactive studies of Hart, Michigan’s architecture, cabins, photographs, and local history.",
+      "steward": "Bart Salazar",
+      "url": "https://simplemindsstudios.com/hart-in-motion/",
+      "repository": "https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io"
+    },
+    {
+      "repo": "the-hart-protocol",
+      "title": "The Hart Protocol",
+      "category": "Place & Civic Life",
+      "status": "Live editorial",
+      "description": "A civic editorial on infrastructure, public leverage, accountability, and local return.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/the-hart-protocol/",
+      "repository": "https://github.com/Simple-Minds-Studios/the-hart-protocol"
+    },
+    {
+      "repo": "Low-Visibility-Lookbooks",
+      "title": "Low Visibility — Lookbooks",
+      "category": "Visual Culture & Audio",
+      "status": "Live exhibit",
+      "description": "Fashion concepts, campaign imagery, silhouettes, and collection studies.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/Low-Visibility-Lookbooks/",
+      "repository": "https://github.com/Simple-Minds-Studios/Low-Visibility-Lookbooks"
+    },
+    {
+      "repo": "low-visibility-brand-bible",
+      "title": "Low Visibility — Brand Bible",
+      "category": "Visual Culture & Audio",
+      "status": "Live exhibit",
+      "description": "The visual language, materials, palette, and creative philosophy of Low Visibility.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/low-visibility-brand-bible/",
+      "repository": "https://github.com/Simple-Minds-Studios/low-visibility-brand-bible"
+    },
+    {
+      "repo": "glam-confession",
+      "title": "Glam Confession",
+      "category": "Visual Culture & Audio",
+      "status": "Live exhibit",
+      "description": "An experimental editorial portfolio exploring image, identity, performance, and atmosphere.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/glam-confession/",
+      "repository": "https://github.com/Simple-Minds-Studios/glam-confession"
+    },
+    {
+      "repo": "thinking-clearer",
+      "title": "Thinking Clearer with Lincoln",
+      "category": "Visual Culture & Audio",
+      "status": "Podcast",
+      "description": "Published episodes about perception, belief, uncertainty, and how we think.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/thinking-clearer/",
+      "repository": "https://github.com/Simple-Minds-Studios/thinking-clearer"
+    },
+    {
+      "repo": "best-human-moment",
+      "title": "The Human Room",
+      "category": "Visual Culture & Audio",
+      "status": "Prototype",
+      "description": "An immersive translation chamber and assessment experience, archived as best-human-moment.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/best-human-moment/",
+      "repository": "https://github.com/Simple-Minds-Studios/best-human-moment"
+    },
+    {
+      "repo": "public-website.github.io",
+      "title": "Atlas Museum",
+      "category": "Visual Culture & Audio",
+      "status": "Prototype",
+      "description": "An independent museum interaction prototype, preserved separately from the main studio website.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/public-website.github.io/",
+      "repository": "https://github.com/Simple-Minds-Studios/public-website.github.io"
+    },
+    {
+      "repo": "simplemindsstudios.github.io",
+      "title": "Simple Minds Studios website",
+      "category": "Studio Resources",
+      "status": "Studio website",
+      "description": "The canonical studio website, public collection, and publishing history.",
+      "steward": "",
+      "url": "https://simplemindsstudios.com/",
+      "repository": "https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io"
+    },
+    {
+      "repo": "sms-standards",
+      "title": "SMS Standards",
+      "category": "Studio Resources",
+      "status": "Documentation",
+      "description": "The studio’s working manual, brand system, and design guidance.",
+      "steward": "",
+      "url": null,
+      "repository": "https://github.com/Simple-Minds-Studios/sms-standards"
+    },
+    {
+      "repo": "agent-skills",
+      "title": "Agent Skills — Linc(d) prototype",
+      "category": "Studio Resources",
+      "status": "Prototype",
+      "description": "A separate repository currently presenting a Linc(d) personal-context prototype.",
+      "steward": "",
+      "url": "https://simple-minds-studios.github.io/agent-skills/",
+      "repository": "https://github.com/Simple-Minds-Studios/agent-skills"
+    },
+    {
+      "repo": ".github",
+      "title": "Organization profile & attribution",
+      "category": "Studio Resources",
+      "status": "Documentation",
+      "description": "The SMS organization profile, rights guidance, and attribution information.",
+      "steward": "",
+      "url": null,
+      "repository": "https://github.com/Simple-Minds-Studios/.github"
+    }
+  ]
+}
