@@ -39,6 +39,6 @@
 ## Studio Resources
 
 - **Simple Minds Studios website** — Studio website. The canonical studio website, public collection, and publishing history. [Explore](https://simplemindsstudios.com/). [Repository](https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io).
-- **SMS Standards** — Documentation. The studio’s working manual, brand system, and design guidance. [Repository](https://github.com/Simple-Minds-Studios/sms-standards).
+- **SMS Standards** — Documentation. The studio’s working manual, brand system, and design guidance. [Read the working manual](https://simple-minds-studios.github.io/sms-standards/). [Repository](https://github.com/Simple-Minds-Studios/sms-standards).
 - **Agent Skills — Linc(d) prototype** — Prototype. A separate repository currently presenting a Linc(d) personal-context prototype. [Explore](https://simple-minds-studios.github.io/agent-skills/). [Repository](https://github.com/Simple-Minds-Studios/agent-skills).
 - **Organization profile & attribution** — Documentation. The SMS organization profile, rights guidance, and attribution information. [Repository](https://github.com/Simple-Minds-Studios/.github).
