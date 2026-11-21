@@ -35,3 +35,18 @@ recommendation recorded in [2lincolns issue 15](https://github.com/Bartron773/2l
 YouTube can restrict playback by video, browser, network, or region. The external
 fallback remains visible without depending on iframe load events as proof that
 the video can play.
+
+## Live verification
+
+Implementation commit: `c74b716e485895171ec509a84ba1ca7ab17f57a3`.
+[GitHub Pages deployment](https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io/actions/runs/44954846809)
+succeeded. The live homepage, stylesheet, and player script returned HTTP 200
+and matched the committed source byte for byte.
+
+On the public domain, the player was absent initially, appeared after selecting
+an episode, and switched to Borrowed Thoughts with one iframe and the matching
+YouTube fallback. The native YouTube controls and episode cover loaded. A full
+audio-playback test was not confirmed in the test browser; the video's elapsed
+time remained at zero after pressing Play.
+
+Live visual record: [Listen section](../.github/reports/podcast-player-live-2026-11-21.jpg).
