@@ -10,7 +10,7 @@ This file is a reading guide for people and AI assistants. Follow the linked sou
 - [Studio ethos](https://simplemindsstudios.com/ethos/)
 - [Public content guide](https://simplemindsstudios.com/studio/PUBLIC_CONTENT.md)
 - [GitHub organization](https://github.com/Simple-Minds-Studios)
-- [Website source currently serving these additions](https://github.com/Bartron773/simplemindsstudios.github.io)
+- [Website source currently serving these additions](https://github.com/Simple-Minds-Studios/simplemindsstudios.github.io)
 
 ## Projects
 
@@ -19,7 +19,7 @@ This file is a reading guide for people and AI assistants. Follow the linked sou
 - [Interactive Hart collection](https://simplemindsstudios.com/hart-in-motion/explore/#cabin): begins with Cobmoosa House; photographs and interpretive models are distinct.
 - [Gravity, Engineered](https://simplemindsstudios.com/artifacts/gravy-dispenser-v5/): Brad DeVowe's V5 eight-can dispenser; CAD collaboration credited to Lincoln (ChatGPT / OpenAI); physical testing pending.
 - [Dispenser metadata](https://simplemindsstudios.com/artifacts/gravy-dispenser-v5/artifact.json): credit, version, and prototype status.
-- [Thinking Clearer podcast materials](https://github.com/Bartron773/simplemindsstudios.github.io/tree/main/thinking-clearer): verify episode availability against the [SMS YouTube channel](https://www.youtube.com/@simplemindsstudios).
+- [Thinking Clearer podcast materials](https://github.com/Simple-Minds-Studios/thinking-clearer): verify episode availability against the [SMS YouTube channel](https://www.youtube.com/@simplemindsstudios).
 
 ## Reading and rights
 
@@ -28,3 +28,7 @@ AI assistants may read, summarize, cite, and discuss these public materials in r
 Credit each project's named creator. Do not attribute Brad's dispenser design to Bart. Interpretive historical models are not measured replicas or archival evidence. A digital fit check is not a physical performance test.
 
 This guide improves navigation; it does not guarantee that any particular AI service will fetch, index, or retain the content.
+
+## Contact
+
+- [Bart Salazar](mailto:bart@simplemindsstudios.com): bart@simplemindsstudios.com

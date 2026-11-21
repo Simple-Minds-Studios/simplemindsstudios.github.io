@@ -10,12 +10,12 @@ projects = catalog['projects']
 assert all(row.get('repo') != 'fractalnomia' for row in projects), 'Private source must not be included in the public catalog'
 start = '/* SMS_PUBLIC_CATALOG_START */'
 end = '/* SMS_PUBLIC_CATALOG_END */'
-page = root / 'index.html'
+page = root / 'assets/homepage/homepage.js'
 text = page.read_text()
 assert text.count(start) == text.count(end) == 1, 'Homepage catalog markers are missing or duplicated'
 a = text.index(start)
 b = text.index(end, a) + len(end)
-payload = start + '\nconst smsPublicCatalog = ' + json.dumps(projects, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + ';\n' + end
+payload = start + '\nconst projects = ' + json.dumps(projects, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + ';\n' + end
 page.write_text(text[:a] + payload + text[b:])
 print(f'Synchronized {len(projects)} public entries into the homepage')
 

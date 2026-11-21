@@ -53,6 +53,10 @@ Hart, Michigan — 2026
 
 ## Public collection coverage
 
-The homepage and searchable directory use `projects/catalog.json` as the reviewed public inventory. Both family-history exhibits appear near the opening of the homepage. The **All projects** header link remains visible on phones.
+The homepage and searchable directory use `projects/catalog.json` as the reviewed public inventory. Both family-history exhibits are featured in the visual homepage collection. The **All projects** header link remains visible on phones.
 
-Before deployment, `scripts/check_public_catalog.py --live` compares the catalog with GitHub’s public organization repositories. Missing or stale entries stop the deployment with an explicit report; private source is never imported automatically. The build synchronizes the homepage collection from the catalog.
+Before deployment, `scripts/check_public_catalog.py --live` compares the catalog with GitHub’s public organization repositories. Missing or stale entries stop the deployment with an explicit report; private source is never imported automatically. The build synchronizes the homepage directory panel and static project directory from the catalog.
+
+## Visual homepage
+
+The November 21 visual edition uses `assets/homepage/homepage.css` and `assets/homepage/homepage.js`, real project imagery, six featured projects plus Hart, in Motion, and the integrated podcast. All public repositories remain in the searchable All projects panel and the static project directory. The primary contact is [bart@simplemindsstudios.com](mailto:bart@simplemindsstudios.com). Existing deep pages remain available.

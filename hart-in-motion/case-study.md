@@ -130,4 +130,4 @@ Let’s make your town make sense.
 
 If you work for a historical society, chamber, library, or town that wants its story to travel, we’d love to talk about a collection built around yours.
 
-[mailto:MITechBros@outlook.com?subject=Our%20town%20story&body=Town%3A%0AYour%20role%3A%0AWhat%20story%20do%20you%20want%20to%20tell%3F] Start a conversation [https://simplemindsstudios.com/hart-in-motion/explore/#cabin] Explore Hart, in Motion [https://simplemindsstudios.com/ethos/] Read the ethos
+[mailto:bart@simplemindsstudios.com?subject=Our%20town%20story&body=Town%3A%0AYour%20role%3A%0AWhat%20story%20do%20you%20want%20to%20tell%3F] Start a conversation [https://simplemindsstudios.com/hart-in-motion/explore/#cabin] Explore Hart, in Motion [https://simplemindsstudios.com/ethos/] Read the ethos
