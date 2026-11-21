@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/homepage/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/homepage/homepage.css">
   <script src="assets/homepage/homepage.js" defer></script>
+  <script src="assets/homepage/podcast.js" defer></script>
   <link rel="canonical" href="https://simplemindsstudios.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Simple Minds Studios — A place for questions">
@@ -91,7 +92,24 @@
     <span id="sms-podcast" class="anchor-alias" aria-hidden="true"></span>
     <section class="podcast shell" id="listen" aria-labelledby="podcast-title">
       <div class="podcast-intro"><p class="eyebrow">A conversation to take with you</p><h2 id="podcast-title">Thinking Clearer<br><em>with Lincoln.</em></h2><p>Slow things down. Stay with the question.<br>See what changes.</p><a class="solid-button" href="https://simple-minds-studios.github.io/thinking-clearer/">Explore the podcast</a></div>
-      <div class="episodes"><p class="eyebrow">Season one · Published episodes</p><a class="episode" href="https://www.youtube.com/watch?v=Hahd5jdcR3k"><span class="play-icon" aria-hidden="true">▶</span><span><small>Perception</small><strong>Maps in the Mind</strong></span><span class="episode-action">Listen</span></a><a class="episode" href="https://www.youtube.com/watch?v=IvM9KoJ85dQ"><span class="play-icon" aria-hidden="true">▶</span><span><small>Belief</small><strong>Borrowed Thoughts</strong></span><span class="episode-action">Listen</span></a><a class="episode" href="https://www.youtube.com/watch?v=HnNYcDar6_Q"><span class="play-icon" aria-hidden="true">▶</span><span><small>Uncertainty</small><strong>The Discipline of Not Knowing</strong></span><span class="episode-action">Listen</span></a></div>
+      <div class="podcast-listening">
+        <div class="podcast-player" id="podcast-player-slot" aria-label="Podcast video player">
+          <div class="podcast-placeholder" id="podcast-placeholder">
+            <p class="eyebrow">Selected episode</p>
+            <h3 id="podcast-selected-title">Maps in the Mind</h3>
+            <button type="button" class="solid-button" id="podcast-load" aria-label="Load the YouTube player for Maps in the Mind">Load episode player</button>
+            <p class="podcast-load-note">YouTube loads only when you choose to listen.</p>
+          </div>
+        </div>
+        <div class="podcast-player-controls"><a class="text-link" id="podcast-youtube" href="https://www.youtube.com/watch?v=Hahd5jdcR3k" target="_blank" rel="noopener">Watch on YouTube</a><button type="button" id="podcast-close" hidden>Close player</button></div>
+        <p class="podcast-message" id="podcast-message" role="status" aria-live="polite">Choose an episode to load its player here. Playback starts when you press play.</p>
+        <div class="episodes"><p class="eyebrow">Season one · Published episodes</p>
+          <button type="button" class="episode" data-podcast-episode="Hahd5jdcR3k" aria-pressed="true" aria-controls="podcast-player-slot" aria-label="Load Maps in the Mind on this page"><span class="play-icon" aria-hidden="true">▶</span><span><small>Perception</small><strong>Maps in the Mind</strong></span><span class="episode-action">Selected</span></button>
+          <button type="button" class="episode" data-podcast-episode="IvM9KoJ85dQ" aria-pressed="false" aria-controls="podcast-player-slot" aria-label="Load Borrowed Thoughts on this page"><span class="play-icon" aria-hidden="true">▶</span><span><small>Belief</small><strong>Borrowed Thoughts</strong></span><span class="episode-action">Listen here</span></button>
+          <button type="button" class="episode" data-podcast-episode="HnNYcDar6_Q" aria-pressed="false" aria-controls="podcast-player-slot" aria-label="Load The Discipline of Not Knowing on this page"><span class="play-icon" aria-hidden="true">▶</span><span><small>Uncertainty</small><strong>The Discipline of Not Knowing</strong></span><span class="episode-action">Listen here</span></button>
+        </div>
+        <noscript><p class="podcast-message">Listen on YouTube: <a href="https://www.youtube.com/watch?v=Hahd5jdcR3k">Maps in the Mind</a>, <a href="https://www.youtube.com/watch?v=IvM9KoJ85dQ">Borrowed Thoughts</a>, or <a href="https://www.youtube.com/watch?v=HnNYcDar6_Q">The Discipline of Not Knowing</a>.</p></noscript>
+      </div>
     </section>
 
     <span id="questions" class="anchor-alias" aria-hidden="true"></span><span id="principles" class="anchor-alias" aria-hidden="true"></span>
